@@ -128,6 +128,17 @@ create table e_project_data
 );
 
 
+-- 用户表
+create table e_user
+(
+  id                      varchar(255)                primary key  comment '用户openId',
+  unionId                 varchar(255)                not null     comment '用户的unionId',
+  userName                varchar(100)                             comment '',
+  avatarUrl               varchar(150)                             comment '',
+  gender                  tinyint                     default 0    comment '',
+  city                    varchar(100)                             comment '',
+  province                varchar(100)                             comment ''
+);
 
 
 

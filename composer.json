@@ -22,7 +22,8 @@
         "topthink/think-migration": "1.*",
         "topthink/think-mongo": "1.*",
         "topthink/think-queue": "1.*",
-        "topthink/think-image": "1.*"
+        "topthink/think-image": "1.*",
+        "gamegos/jwt": "^0.1.1"
     },
     "autoload": {
         "psr-4": {
